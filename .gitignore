@@ -1,0 +1,65 @@
+# Build artifacts
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dSYM/
+
+# Compiled libraries
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# IDE and editor files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Output data files (optional - you might want to keep these)
+*.csv
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.cmake
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Profiling data
+*.prof
+callgrind.out.*
+gmon.out
+
+# Documentation build
+docs/html/
+docs/latex/
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
